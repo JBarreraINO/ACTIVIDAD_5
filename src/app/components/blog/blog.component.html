@@ -1,0 +1,47 @@
+
+<div class="blogNoticias">
+    <header>
+        <div class="tittle"><h2>EL MAÌS</h2></div>
+    </header>
+    
+    <main>
+      <div class="titulo-blog"><h1>Blog</h1></div>
+       <div class="content">
+         <div class="noticiasGlobal" [innerHtml]="resultado">
+        </div>
+         <div class="forms">
+       <h2>formulario de alta </h2>
+     <div>
+  <label for="autor" >Introduce autor:</label>
+  <input class="Icontenido" class="i1" type="text" id="autor" name="autor" [(ngModel)]="autor" placeholder="Ej:pedro Garcia...">
+      </div>
+      <div>
+    <label for="titulo">Introduce titulo: </label>
+    <input  class="i1" type="text"  id="titulo" [(ngModel)]="titulo" placeholder="Ej:los nuevos blogueros ...">
+      </div>
+      <div>
+    <label for="contenido">Introduce contenido</label>
+    
+    <textarea  rows="10" cols="50" class="Icontenido" type="text" id="contenido" [(ngModel)]="contenido" placeholder="Escribe tu contenido aqui:"></textarea>
+ 
+      </div>
+     <div>
+      <label for="fecha">Introduce fecha</label>
+      <input  class="i1" type="text" id="fecha" [(ngModel)]="fecha" placeholder="Ej:27 AGO 2021 - 22:20 COT...">
+     </div>
+     <div>
+      <label for="imagen">Introduce url de imagen</label>
+      <input  class="i1" type="text" id="imagen" [(ngModel)]="imagen" placeholder="Ej: https://picsum.photos/300/300...">
+     </div>
+
+    <button (click)="publicar()">guardar</button>
+
+         </div>
+       </div>
+    </main>
+     
+    <footer>
+        <span>© EDICIONES EL MAÍS</span>
+    </footer>
+ 
+</div>
