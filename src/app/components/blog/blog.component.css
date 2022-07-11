@@ -6,28 +6,10 @@
     background-color: #f5f5f5;
     margin: 10px;
 }
-.contents{
+.content{
     display: flex;
-    flex-direction: row;
-   max-width: 100%;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0px;
-    padding: 0px;
 
   
-  
-}
-.content{
-   display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0px;
-    padding: 0px;
-    flex: 3;
-    
 }
 .forms {
     padding: 1rem;
